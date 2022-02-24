@@ -56,7 +56,7 @@
    <tr><td>13. На веб интерфейсе создать файл bug_report.json:</td><td>На <a href="URL">github.com</a> открыть репозиторий <B><I>"JSON"</B></I> → Нажать на кнопку <B><I>"Add files"</B></I>,а затем выбрать <B><I>"Create new files"</B></I> в выпадающем списке → ввести bug_report.json в поле <B><I>"name your file"</B></I></td></tr>
    <tr><td>14. Сделать Commit changes (сохранить) изменения на веб интерфейсе:</td><td>Внести пояснения к комиту<B><I>(e.g. create bug_report.json)</B></I> и указать ветку коммита → нажать <B><I>"Commit new file"</B></I></td></tr>
    <tr><td> 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:</td><td>В репозитории <B><I>JSON</B></I> выбрать файл <B><I>bug_report.json</B></I> → в открывшемся окне нажать кнопку <B><I>"Edit this file"</B></I> →  в поле <B><I>"Edit file"</B></I> ввести:<br>
-<B>{"Bug Name": "Application \"NAME\" breaks down after clicking the \"PAY NOW\" button on the last step of product purchase",<br>
+<B>{"Bug Name": "Application \"NAME\" crashes upon clicking the \"PAY NOW\" button on the last step of product purchase",<br>
 "Bug ID": "It will be automatically generated after bug report saving",<br>
 "Tested on": "Android 10.0",<br>
 "Device" : "Samsung Galaxy S10",<br>
@@ -67,7 +67,7 @@
 "Reported by" : "Anastasiya -P",<br> 
 "Reported On": "18FEB22",<br>
 
-<br>"Description": "Unable to finish the process of product purchase as apllication \"NAME\" breaks down upon clicking the \"PAY NOW\" button: the screen turns white and the application does not respond to user actions",<br>
+<br>"Description": "Unable to finish the process of product purchase as apllication \"NAME\" crashes upon clicking the \"PAY NOW\" button: the screen turns white and the application does not respond to user actions",<br>
 <br>"Steps to Reproduce": {"1": "Open the Application",<br>
 "2": "Search for the required product",<br>
 "3": "Add the product to the cart by clicking  \"ADD\" button",<br>
@@ -153,7 +153,7 @@
    <tr><td>33. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML:</td><td>В репозитории <B><I>XML</B></I> выбрать файл <B><I>bug_report.xml</B></I>→ в открывшемся окне выбрать кнопку <B><I>"Edit this file"</B></I> →  в поле <B><I>"Edit file"</B></I> ввести: <br>
 <B>&lt?xml version="1.0" encoding="UTF-8"?&gt<br>
 &ltBug_report&gt<br>
-&ltBug_Name&gtBug name: Application "NAME" breaks down after clicking the "PAY NOW" button on the last step of product purchase&lt/Bug_Name&gt<br>
+&ltBug_Name&gtBug name: Application "NAME" crashes upon clicking the "PAY NOW" button on the last step of product purchase&lt/Bug_Name&gt<br>
 &ltBug_ID&gt Bug ID: It will be automatically generated after bug report saving&lt/Bug_ID&gt<br>
 &ltTested_on&gt Tested on: Android 10.0&lt/Tested_on&gt<br>
 &ltDevice&gt Device: Samsung Galaxy S10&lt/Device&gt<br>
@@ -163,7 +163,7 @@
 &ltAssigned_to&gtAssigned to: DeveloperX&lt/Assigned_to&gt<br>
 &ltReported_by&gtReported by: Name&lt/Reported_by&gt <br>
 &ltReported_On&gtReported on: 18FEB22&lt/Reported_On&gt<br>
-<br>&ltDescription&gtDescription:Unable to finish the process of product purchase as apllication "NAME" breaks down upon clicking the "PAY NOW" button: the sceen turns white and the apllication does not respond to user actions&lt/Description&gt<br>
+<br>&ltDescription&gtDescription:Unable to finish the process of product purchase as apllication "NAME" crashes upon clicking the "PAY NOW" button: the sceen turns white and the apllication does not respond to user actions&lt/Description&gt<br>
 <br>&ltSteps_to_Reproduce&gt<br>
 &ltFirst_step&gtSteps to Reproduce: 1)Open the Application&lt/First_step&gt<br>
 &ltSecond_step&gt2)Search for the required product&lt/Second_step&gt<br>
@@ -173,7 +173,7 @@
 &ltSix_step&gt6)Enter the credit card data&lt/Six_step&gt<br>
 &ltSeven_step&gt7)Press the button "PAY NOW"&lt/Seven_step&gt<br>
 &lt/Steps_to_Reproduce&gt<br>
-<br>&ltExpected_Result&gtOn clicking the "PAY NOW" button  the money should be charged from user's credit card while the application displays the information about successfully created order&lt/Expected_Result&gt<br>
+<br>&ltExpected_Result&gtUpon clicking the "PAY NOW" button  the money should be charged from user's credit card while the application displays the information about successfully created order&lt/Expected_Result&gt<br>
 <br>&ltActual_Result&gtUpon clicking the "PAY NOW" button the screen turns white and the application does not respond to user actions&lt/Actual_Result&gt<br>
 <br>&lt/Bug_report&gt</td></tr></B>
    <tr><td>34. Сделать Commit changes (сохранить) изменения на веб интерфейсе:</td><td>Внести пояснения к комиту<B><I>(e.g. update bug_report.xml),</B></I> указать ветку коммита → нажать <B><I>"Commit new file"</B></I></td></tr>
@@ -205,7 +205,7 @@
    <tr><td>42. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT:</td><td><B><I>cat >> new.txt</B></I><br>
 <B>My name is Anastasiya Papliauko.<br>
 I have only one pet.<br>
-I expect to earn not less than 600$ per month<br></B>
+I expect to earn about 600$ per month<br></B>
 Используем сочетание клавиш <B><I>"CTRL+C"</B></I> для того, чтобы прервать процесс ввода данных в документ.</td></tr>
    <tr><td>43. Отправить изменения на внешний репозиторий:</td><td><B><I>git add new.txt → git commit -m "new.txt file editing" → git push</B></I></td></tr>
    <tr><td>44. Создать файл preferences.txt:</td><td><B><I>touch preferences.txt</B></I></td></tr>
@@ -238,7 +238,7 @@ I would like to visit Korea once again or any  other Asian countries.</B><br>
    <tr><td>49. На веб интерфейсе создать файл bug_report.txt:</td><td>На <a href="URL">github.com</a> открыть репозиторий <B><I>"TXT"</B></I> → Нажать на кнопку <B><I>"Add files"</B></I>,а затем выбрать <B><I>"Create new files"</B></I> в выпадающем списке → ввести bug_report.txt в поле <B><I>"name your file"</B></I></td></tr>
    <tr><td>50. Сделать Commit changes (сохранить) изменения на веб интерфейсе:</td><td>Внести пояснения к комиту<B><I>(e.g. create bug_report.txt)</B></I> и указать ветку коммита → нажать <B><I>"Commit new file"</B></I></td></tr>
    <tr><td>51. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT:</td><td>В репозитории <B><I>TXT</B></I> выбрать файл <B><I>bug_report.txt</B></I>→ в открывшемся окне выбрать кнопку <B><I>"Edit this file"</B></I> →  в поле <B><I>"Edit file"</B></I> ввести: <br>
-<B>Bug Name: Application "NAME" breaks down after clicking the "PAY NOW" button on the last step of product purchase<br>
+<B>Bug Name: Application "NAME" crashes upon clicking the "PAY NOW" button on the last step of product purchase<br>
 Bug ID: It will be automatically generated after bug report saving<br>
 Tested on: Android 10.0<br>
 Device: Samsung Galaxy S10<br>
@@ -250,7 +250,7 @@ Reported by: Anastasiya-P <br>
 Reported On: 18FEB22<br>
 
 
-<br>Description: Unable to finish the process of product purchase as apllication "NAME" breaks down upon clicking the "PAY NOW" button: the screen turns white and the application does not respond to user actions"<br>
+<br>Description: Unable to finish the process of product purchase as apllication "NAME" crashes upon clicking the "PAY NOW" button: the screen turns white and the application does not respond to user actions"<br>
 <br>Steps to Reproduce:<br> 
 1)Open the Application,<br>
 2)Search for the required product,<br>

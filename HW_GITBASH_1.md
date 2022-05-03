@@ -17,7 +17,7 @@
 | 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку              | **cp foldername1/file_3.txt foldername1/file_4.json foldername2**      |  
 | **При нахождении в папке foldername1:*              | **cp file_3.txt file_4.json ../foldername2** (*папка foldername содержит папки foldername1 и foldername3)*   |  
 | 15. Найти файл по имени              | **find -name "filename.txt"**(e.g. find -name file_5.json) **если файл в директории выше, то указываем путь find /path/to/search -name filename.txt(e.g. find /e/gitbush -name file_5.json)*      |  
-| 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает: | **tail -f filename** и/или **tail -f filename | grep --line-buffered searchword**(*просмотреть наличие в документе конкретного слова в режиме реального времени)*      |  
+| 16. Просмотреть содержимое в реальном времени: | **tail -f filename**     |  
 | 17. Вывести несколько первых строк из текстового файла             | **head -2 filename.txt**      | 
 | 18. Вывести несколько последних строк из текстового файла              | **tail -2 filename.txt**    | 
 | 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает              | **less +f filename**     | 
